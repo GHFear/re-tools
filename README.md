@@ -15,5 +15,5 @@
 /GHFear
 
 
-Uses dxgi proxy loading and Minhook external tools. <br>
+Inludes dxgi proxy loading and Minhook as external tools.
 
