@@ -10,10 +10,9 @@
 **matt-wu type:** https://github.com/matt-wu/AES/blob/master/rijndael.c <br>
 **libgcrypt/GnuPG type:** https://github.com/Chronic-Dev/libgcrypt/blob/master/cipher/rijndael.c <br>
 
-*Use IDA, Ghidra, Cutter or Binary Ninja and binary search for the first 8 bytes of the Te, Td or rcon arrays and thesn xref those to find the AES setup functions.*
+*Use IDA, Ghidra, Cutter or Binary Ninja and binary search for the first 8 bytes of the Te, Td or rcon arrays and thesn xref those to find the AES setup functions.* <br>
+*Inludes dxgi proxy loading and Minhook as external tools.*
+*/GHFear*
 
-/GHFear
 
-
-Inludes dxgi proxy loading and Minhook as external tools.
 
