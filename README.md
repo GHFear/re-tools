@@ -11,7 +11,7 @@
 **libgcrypt/GnuPG type:** https://github.com/Chronic-Dev/libgcrypt/blob/master/cipher/rijndael.c <br>
 
 *Use IDA, Ghidra, Cutter or Binary Ninja and binary search for the first 8 bytes of the Te, Td or rcon arrays and then xref those to find the AES setup functions.* <br>
-*Inludes dxgi proxy loading and Minhook as external tools.* <br> <br>
+*Includes dxgi proxy loading and Minhook as external tools.* <br> <br>
 */GHFear*
 
 
