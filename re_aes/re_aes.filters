@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Minhook">
+      <UniqueIdentifier>{b0223b43-3cb7-4d4c-be09-499a10378be7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Proxy">
+      <UniqueIdentifier>{faad49b9-a25a-4c14-9968-c98823bf7fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{6ab4abbc-f580-43c3-8c40-70b47e308cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Proxy">
+      <UniqueIdentifier>{f6e8b5a0-5147-4bee-b333-f3ae1609591c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Minhook">
+      <UniqueIdentifier>{1654a7d9-6ad2-4155-a4da-3bb226a1f883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Minhook\hde">
+      <UniqueIdentifier>{474c1fdf-25e6-4863-b8bc-e568386c9260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Minhook\hde">
+      <UniqueIdentifier>{1b7ea58e-8897-4568-ba2d-0dfe0d55dba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{d616fa7b-4917-43e4-9a20-43c49fe35bf6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\buffer.h">
+      <Filter>Header Files\Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\MinHook.h">
+      <Filter>Header Files\Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\trampoline.h">
+      <Filter>Header Files\Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\hde\pstdint.h">
+      <Filter>Header Files\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\hde\table32.h">
+      <Filter>Header Files\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\hde\table64.h">
+      <Filter>Header Files\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\hde\hde32.h">
+      <Filter>Header Files\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\hde\hde64.h">
+      <Filter>Header Files\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Proxy\proxy.h">
+      <Filter>Header Files\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\re_tools.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\trampoline.c">
+      <Filter>Source Files\Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\buffer.c">
+      <Filter>Source Files\Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\hook.c">
+      <Filter>Source Files\Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\hde\hde32.c">
+      <Filter>Source Files\Minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\hde\hde64.c">
+      <Filter>Source Files\Minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Proxy\proxy.cpp">
+      <Filter>Source Files\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\re_tools.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Proxy\proxy.def">
+      <Filter>Source Files\Proxy</Filter>
+    </None>
+    <None Include="re_asm_tools.asm">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

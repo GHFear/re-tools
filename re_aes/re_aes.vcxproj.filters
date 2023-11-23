@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Minhook\hde\hde64.c">
+      <Filter>Source\Minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\hde\hde32.c">
+      <Filter>Source\Minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\buffer.c">
+      <Filter>Source\Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\hook.c">
+      <Filter>Source\Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\trampoline.c">
+      <Filter>Source\Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Proxy\proxy.cpp">
+      <Filter>Source\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\re_tools.cpp">
+      <Filter>Source\Tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Minhook\hde\table64.h">
+      <Filter>Headers\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\hde\table32.h">
+      <Filter>Headers\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\hde\hde64.h">
+      <Filter>Headers\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\hde\hde32.h">
+      <Filter>Headers\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\buffer.h">
+      <Filter>Headers\Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\MinHook.h">
+      <Filter>Headers\Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\trampoline.h">
+      <Filter>Headers\Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Proxy\proxy.h">
+      <Filter>Headers\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\re_tools.h">
+      <Filter>Headers\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\hde\pstdint.h">
+      <Filter>Source\Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="re_asm_tools.asm" />
+    <None Include="Proxy\proxy.def">
+      <Filter>Source\Proxy</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{c0a8805b-c8de-4e63-b917-eae7fdd4fdea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{2e2261bd-c84a-41a7-8d0f-dd29d362f1aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Minhook">
+      <UniqueIdentifier>{66a36bb5-e6f5-4679-b55a-d493a2f0989e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Proxy">
+      <UniqueIdentifier>{5e3cae27-01bc-4d62-8399-6a4b57e8b07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Tools">
+      <UniqueIdentifier>{abb23a69-3047-4eb5-9d4c-9373d74dd29b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Minhook">
+      <UniqueIdentifier>{7e8e2748-677b-46d2-93c0-a760c42497e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Proxy">
+      <UniqueIdentifier>{9167709e-5b03-4036-8289-981bc19edb96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools">
+      <UniqueIdentifier>{e5e1a9dd-27ce-4133-ac74-38e68bf2958d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Minhook\hde">
+      <UniqueIdentifier>{d1674ed2-5dc4-4646-a025-89ea991f9b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Minhook\hde">
+      <UniqueIdentifier>{3360c2e2-82b5-4495-83e3-5780ae40111d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
