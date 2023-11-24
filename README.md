@@ -1,4 +1,4 @@
-# re::tools
+# RE::Tools
 
 *This project was made to make it easier to reverse engineer C code and to make it easier to dump AES keys from the most used AES crypt libraries.* <br>
 
